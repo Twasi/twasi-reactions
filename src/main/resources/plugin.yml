@@ -1,0 +1,10 @@
+name: "Reactions"
+author: "Twasi Team"
+description: "React to Messages that contain a special word"
+version: 1.0
+main: net.twasiplugin.reactions.ReactionsPlugin
+messageHandler: true
+commands:
+  - reactions
+permissions:
+  - twasi.reactions.manage

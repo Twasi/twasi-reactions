@@ -1,0 +1,16 @@
+syntax={sender}, zum Verwalten von Reaktionen nutze !reactions [add|del|list] (Wort) (Nachricht) 4Head
+
+add.syntax={sender}, um eine Reaktion hinzuzufügen nutze !reactions add [Wort] [Nachricht] :)
+add.success=Die Reaktion auf {new.key} wurde erfolgreich erstellt KevinTurtle
+add.duplicate={sender}, für dieses Wort gibt es bereits eine Reaktion DansGame Du kannst dir mit '!reactions list' alle Reaktionen anzeigen lassen 4Head
+
+del.syntax={sender}, um eine Reaktion zu löschen nutze !reactions del [Wort] :)
+del.success=Die Reaktion auf {deleted.key} wurde erfolgreich gelöscht KevinTurtle
+del.not_found=Eine Reaktion auf {args.2} wurde nicht gefunden BibleThump
+
+edit.syntax={sender}, um eine Reaktion zu bearbeiten nutze !reactions edit [Wort] [neue Nachricht] :)
+edit.success=Die Reaktion auf {edited.key} wurde erfolgreich bearbeitet KevinTurtle
+edit.not_found=Eine Reaktion auf {args.2} wurde nicht gefunden BibleThump
+
+list.success={sender}, auf folgende Wörter wird reagiert: {reactions}
+list.empty={sender}, hier gibt es bisher keine Reaktionen BibleThump
