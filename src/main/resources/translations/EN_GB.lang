@@ -1,0 +1,16 @@
+syntax={sender}, to edit your reactions use !reactions [add|del|list] (word) (message) 4Head
+
+add.syntax={sender}, to add add reaction use !reactions add [word] [message] :)
+add.success=The reaction to {new.key} was successfully added KevinTurtle
+add.duplicate={sender}, there's already a reaction for that word DansGame You can show all your reactions with '!reactions list' 4Head
+
+del.syntax={sender}, to delete a reaction use !reactions del [word] :)
+del.success=The reaction to {deleted.key} was successfully deleted KevinTurtle
+del.not_found=A reaction to {args.2} was not found BibleThump
+
+edit.syntax={sender}, to edit a reaction use !reactions edit [word] [new message] :)
+edit.success=The reaction to {edited.key} was successfully edited KevinTurtle
+edit.not_found=A reaction to {args.2} was not found BibleThump
+
+list.success={sender}, the following words have a reaction: {reactions}
+list.empty={sender}, there are no reactions here BibleThump
